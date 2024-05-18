@@ -1,0 +1,49 @@
+h1{
+    text-align:center;
+}
+form{
+    border:2px solid black;
+    width:300px;
+    height:170px;
+    margin-left:580px;
+    margin-top:50px;
+    padding:10px;
+    background-color: hwb(180 40% 23%);
+}
+form input{
+    margin:10px;
+    border:2px solid black;
+   
+}
+.submit{
+    background-color:hsl(178, 83%, 51%);
+    margin-left:100px;
+    padding:10px;
+    color:rgb(18, 10, 10);
+}
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+form {
+    margin-bottom: 20px;
+} */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-left:400px;
+    margin-right:200px;
+    margin-top:20px;
+    background-color:aqua;
+}
+table, th, td {
+    border: 2px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+.actions {
+    display: flex;
+    gap: 10px;
+}
